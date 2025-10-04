@@ -1,2 +1,4 @@
-OpenImageIO>=3.0.0.0
+pillow-heif>=0.22.0
 pyinstaller>=6.13.0
+numpy>=2.2.5
+opencv-python>=4.11.0.86
