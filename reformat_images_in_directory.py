@@ -4,8 +4,8 @@ from pathlib import Path
 import sys
 
 def main():
-    parser = argparse.ArgumentParser(description='Convert HEIC images to JPG format')
-    parser.add_argument('input_dir', type=str, help='Input directory containing HEIC images')
+    parser = argparse.ArgumentParser(description='Convert HEIF/HEIC/HIF images to JPG format')
+    parser.add_argument('input_dir', type=str, help='Input directory containing HEIF/HEIC/HIF images')
     parser.add_argument('output_dir', type=str, help='Output directory for JPG images')
     
     args = parser.parse_args()
